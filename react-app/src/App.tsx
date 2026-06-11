@@ -2,6 +2,8 @@
 import {Header} from "./components/Header.jsx";
 // @ts-ignore
 import {Footer} from "./components/Footer.jsx";
+// @ts-ignore
+import PokemonCard from "./components/PokemonCard.jsx";
 
 function App() {
 
@@ -13,7 +15,7 @@ function App() {
         <div className="flex min-h-svh flex-col">
             <Header listItems={items} logo={logo} />
             <main className="flex flex-1 flex-col items-center justify-center bg-gray-50 p-6">
-              <h1 className="text-4xl font-bold mb-4">Bienvenue sur notre site</h1>
+            <PokemonCard></PokemonCard>
             </main>
             <Footer />
         </div>
